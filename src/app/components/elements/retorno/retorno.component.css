@@ -1,0 +1,15 @@
+
+
+
+.sumas{
+
+    display: flex;
+    flex-direction: row;
+
+}
+
+button{
+
+    margin-left: 15px;
+
+}

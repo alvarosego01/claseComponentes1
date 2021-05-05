@@ -1,0 +1,41 @@
+
+
+
+
+
+
+
+<div class="container">
+
+    <div class="row">
+
+        <div class="col">
+
+            <app-retorno
+            [n1]="1"
+            [n2]="2"
+            (accionBoton)="recibe($event)"
+            ></app-retorno>
+
+        </div>
+        <div class="col">
+
+            <app-retorno
+            [n1]="5"
+            [n2]="5"
+            (accionBoton)="recibe($event)"
+            ></app-retorno>
+
+        </div>
+        <div class="col">
+
+            <app-retorno
+            [n1]="100"
+            [n2]="100"
+            (accionBoton)="recibe($event)"
+            ></app-retorno>
+
+        </div>
+    </div>
+
+</div>
